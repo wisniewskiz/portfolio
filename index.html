@@ -1,57 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zachary Edward | Development & Design</title>
-    <link rel="stylesheet" href="https://use.typekit.net/cev3hit.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/cev3hit.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" type="text/css" />
+    <link rel="stylesheet" href="glider.min.css">
+    <script src="https://kit.fontawesome.com/706af268e6.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
         <header>
             <div class="logo">
-                <object type="image/svg+xml" data="assets/logo.svg" id="logo"></object>
-            </div>
-        </header>
-        <nav>
-            <div class="nav--rotate">
-                <ul>
-                    <li>home</li>
-                    <li>portfolio</li>
-                    <li>contact</li>
-                    <li>about</li>
+                <img src="assets/logo.png">
+        </div>
+    </header>
+      <nav>
+          <div>
+              <ul>
+                  <li>home</li>
+                  <li>portfolio</li>
+                  <li>contact</li>
+                  <li>about</li>
                 </ul>
             </div>
         </nav>
+        
+        <div class="cta--image">
+            <!-- <img src="./assets/blurred.jpg" class="blurredimage"> -->
+        </div>
 
-            <div class="heading">
-                <h1>web development and design</h1>
-            </div>
-            <div class="cta--text">
-                <p>taking the blur out of design and development of your internet presence and brand identity so 
-                    you can worry about what really matters. <span class="highlight--red">your clients, and yourself.</span> contact me to get started 
-                    and scroll down to why you want to.</p>
-                
-                    <button class="button--red">let's get in touch</button>
-            </div>
-
+        <div class="heading">
+            <h1>web development and design</h1>
+        </div>
+        <div class="cta--text">
+            <p>
+                taking the blur out of design and development of your internet
+                presence and brand identity so you can worry about what really
+                matters.
+                <span class="highlight--red">your clients, and yourself.</span>
+                contact me to get started and scroll down to see why you want to.
+            </p>
+            
+            <button class="button--red">let's get in touch</button>
+        </div>
+        
+        
+        <!--PORTFOLIO SLIDER SECTION_____________________________________________-->
+        
         <div class="portfolio--heading">
-            <span class="title">my work</span>
+        <span class="title">my work</span>
+    </div>
+    
+    <!-- <div class="portfolio--slider">
+        <div class="glider">
+            <div class="card--wrapper">
+                <button class="glider-prev"><i class="far fa-arrow-alt-circle-left fa-5x"></i></button>
+                
+                Individual Cards
+                <div class="card" id="zacharyEdwardPort">
+                    <div class="card--image">
+                        </div>
+                        <div class="card--description">
+                            <div class="card--description__heading">
+                                zachary edward portfolio
+                            </div>
+                            <div class="card--description__text">
+                                A clean, minimal, and lightweight portfolio for a freelance developer and designer. Technologies used includes semantic HTML5, CSS3, CSS Grid, and JavaScript.
+                            </div>
+                            <div class="card--description__links">
+                                <button class="button--card">view case study
+                                </button>
+                                <button class="button--card">view live site
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card" id="zacharyEdwardPort">
+                        <div class="card--image">
+                        </div>
+                        <div class="card--description">
+                            <div class="card--description__heading">
+                                zachary edward portfolio
+                            </div>
+                            <div class="card--description__text">
+                                A clean, minimal, and lightweight portfolio for a freelance developer and designer. Technologies used includes semantic HTML5, CSS3, CSS Grid, and JavaScript.
+                            </div>
+                            <div class="card--description__links">
+                                <button class="button--card">view case study
+                                </button>
+                                <button class="button--card">view live site
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <button class="glider-next"><i class="far fa-arrow-alt-circle-right fa-5x"></i></button>
+                </div>
+            </div>
         </div>
-        <div class="portfolio--slider">
-            <p>Ooops, I am still in development</p>
-        </div>
-        <div class="contact--heading">
-            <span class="title">contact</span>
+    </div> -->
+    
+    
+    <!--CONTACT FORM SECTION_________________________________________________-->
+      <div class="contact--heading">
+          <span class="title">contact</span>
         </div>
         <div class="form--section">
             <form action="#" class="contact--">
-                <input type="text" name="name" id="name" value="name">
-                <input type="text" name="email" id="email" value="email">
-                <input type="text" name="company" id="company"value="company">
+                <input type="text" name="name" id="name" value="name" />
+                <input type="text" name="email" id="email" value="email" />
+                <input type="text" name="company" id="company" value="company" />
                 <textarea name="message" id="message" cols="30" rows="10">
                     message
                 </textarea>
@@ -61,5 +128,12 @@
             <span class="title">about me</span>
         </div>
     </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/106/three.min.js" integrity="sha512-aqhdrigR8ePLi7IhiGrZz4APv1VktO5eCavRmavrNSk1Ut/s/WVlDwH94SeCqAiM0lm/s8mjtjaDhfevv2Zauw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous"></script>
+    <script src="scripts/hover.js"></script>
+    <script src="scripts/app.js"></script>
 </body>
 </html>
